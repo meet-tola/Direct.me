@@ -1,0 +1,152 @@
+Uri: https://agent.direct.me/js/plausible.js
+File Name: C:\Downloaded Web Sites\direct.me\js\plausible.js
+Content Type: application/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\direct.me\ajax\libs\jquery\3.4.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://c.statcounter.com/12161422/0/4a257bc2/1/
+File Name: C:\Downloaded Web Sites\direct.me\12161422\0\4a257bc2\1\index.htm
+Content Type: image/gif
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
+File Name: C:\Downloaded Web Sites\direct.me\ajax\libs\jquery.pjax\2.0.1\jquery.pjax.min.js
+Content Type: application/javascript
+
+Uri: https://direct.me/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Downloaded Web Sites\direct.me\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://direct.me/favicons/site.webmanifest
+File Name: C:\Downloaded Web Sites\direct.me\favicons\site.webmanifest
+Content Type: application/octet-stream
+
+Uri: https://direct.me/KrispyMatt
+File Name: C:\Downloaded Web Sites\direct.me\KrispyMatt.html
+Content Type: text/html
+
+Uri: https://direct.me/krispymatt/send-a-tip/6WQ/buy
+File Name: C:\Downloaded Web Sites\direct.me\krispymatt\send-a-tip\6WQ\buy.html
+Content Type: text/html
+
+Uri: https://direct.me/static/css/animate.css?v=1705007970
+File Name: C:\Downloaded Web Sites\direct.me\static\css\animate.css
+Content Type: text/css
+
+Uri: https://direct.me/static/css/animate.css?v=1705012787
+File Name: C:\Downloaded Web Sites\direct.me\static\css\animate-1.css
+Content Type: text/css
+
+Uri: https://direct.me/static/css/animate2.css?v=2021-1-31
+File Name: C:\Downloaded Web Sites\direct.me\static\css\animate2.css
+Content Type: text/css
+
+Uri: https://direct.me/static/css/style.css?v=1705007970
+File Name: C:\Downloaded Web Sites\direct.me\static\css\style.css
+Content Type: text/css
+
+Uri: https://direct.me/static/css/style.css?v=1705012787
+File Name: C:\Downloaded Web Sites\direct.me\static\css\style-1.css
+Content Type: text/css
+
+Uri: https://direct.me/static/favicons/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\direct.me\static\favicons\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://direct.me/static/favicons/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\direct.me\static\favicons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://direct.me/static/favicons/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\direct.me\static\favicons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://direct.me/static/js/access.js?v=1705012787
+File Name: C:\Downloaded Web Sites\direct.me\static\js\access.js
+Content Type: application/javascript
+
+Uri: https://direct.me/static/js/faviconSet.js?v=1705007970
+File Name: C:\Downloaded Web Sites\direct.me\static\js\faviconSet.js
+Content Type: application/javascript
+
+Uri: https://direct.me/static/js/lazyload/lazyload.min.js
+File Name: C:\Downloaded Web Sites\direct.me\static\js\lazyload\lazyload.min.js
+Content Type: application/javascript
+
+Uri: https://direct.me/static/js/site.js?v=1705007970
+File Name: C:\Downloaded Web Sites\direct.me\static\js\site.js
+Content Type: application/javascript
+
+Uri: https://direct.me/static/js/site.js?v=1705012787
+File Name: C:\Downloaded Web Sites\direct.me\static\js\site-1.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
+File Name: C:\Downloaded Web Sites\direct.me\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap
+File Name: C:\Downloaded Web Sites\direct.me\css2-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\opensans\v40\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiByp8kv8JHgFVrLCz7V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiByp8kv8JHgFVrLGT9V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15lEA.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmy15lEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiEyp8kv8JHgFVrFJA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrJJLedw.ttf
+File Name: C:\Downloaded Web Sites\direct.me\s\poppins\v20\pxiGyp8kv8JHgFVrJJLedw.ttf
+Content Type: font/ttf
+
+Uri: https://mystique.direct.me/qceAxL71rDZo4r9zVHuZFUv_Kyg=/250x250/https:%2F%2Fcdn.direct.me%2Favatars%2F4018.png%3F1702063225
+File Name: C:\Downloaded Web Sites\direct.me\qceAxL71rDZo4r9zVHuZFUv_Kyg=\250x250\httpscdn.direct.meavatars4018.png1702063225
+Content Type: image/png
+
+Uri: https://mystique.direct.me/wVVggB2B3i4rAbqvvcKuJ_h0z2E=/200x200/https:%2F%2Fcdn.direct.me%2Favatars%2F4018.png%3F1702063225
+File Name: C:\Downloaded Web Sites\direct.me\wVVggB2B3i4rAbqvvcKuJ_h0z2E=\200x200\httpscdn.direct.meavatars4018.png1702063225
+Content Type: image/png
+
+Uri: https://mystique.direct.me/Z3s3pJrG9EofyJS-DQ-SHaXilEg=/70x70/https:%2F%2Fcdn.direct.me%2Favatars%2F4018.png%3F1702063225
+File Name: C:\Downloaded Web Sites\direct.me\Z3s3pJrG9EofyJS-DQ-SHaXilEg=\70x70\httpscdn.direct.meavatars4018.png1702063225
+Content Type: image/png
+
+Uri: https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317
+File Name: C:\Downloaded Web Sites\direct.me\beacon.min.js\v84a3a4012de94ce1a686ba8c167c359c1696973893317
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-132400210-1
+File Name: C:\Downloaded Web Sites\direct.me\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.statcounter.com/counter/counter.js
+File Name: C:\Downloaded Web Sites\direct.me\counter\counter.js
+Content Type: application/javascript
+

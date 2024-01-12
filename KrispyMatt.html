@@ -1,0 +1,1627 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script
+    type="41882e5a277347ac75383d08-text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VwYCWFRSARAEUFZTBQcPV1U=",licenseKey:"NRJS-aa4c79310949334ef1d",applicationID:"447126811"};;/*! For license information please see nr-loader-full-1.249.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>m,Mt:()=>b,C5:()=>s,DL:()=>A,OP:()=>R,lF:()=>C,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>x,sU:()=>j});var n=r(8632),i=r(9567);const a={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a);const r=(0,n.ek)(e);r&&(r.info=o[e])}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=r(7056),l=r(50);const f="[data-nr-mask]",h=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},g="All configuration objects require an agent identifier!";function m(e){if(!e)throw new Error(g);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function v(e,t){if(!e)throw new Error(g);p[e]=(0,i.D)(t,h());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(g);var r=m(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},w={};function A(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!w[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return w[e]}function x(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");w[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=w[e])}const _=(0,n.mF)().o;var E=r(385),S=r(6818);const D={buildEnv:S.Re,customTransaction:void 0,disabled:!1,distMethod:S.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:S.q4,denyList:void 0},T={};function R(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!T[e])throw new Error("Runtime for ".concat(e," was never set"));return T[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");T[e]=(0,i.D)(t,D);const r=(0,n.ek)(e);r&&(r.runtime=T[e])}function C(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>a,lF:()=>o,q4:()=>n});const n="1.249.0",i="PROD",a="CDN",o="2.0.0-alpha.11"},385:(e,t,r)=>{"use strict";r.d(t,{FN:()=>s,IF:()=>u,Nk:()=>f,Tt:()=>c,_A:()=>a,cv:()=>h,iS:()=>o,il:()=>n,ux:()=>d,v6:()=>i,w1:()=>l});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=(a?.document?.readyState,Boolean("hidden"===a?.document?.visibilityState)),s=""+a?.location,c=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),d=c&&"undefined"==typeof SharedWorker,u=(()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),l=Boolean(n&&window.document.documentMode),f=!!a.navigator?.sendBeacon,h=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>a});var n=r(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>u,R:()=>c});var n=r(8325),i=r(1284),a=r(4322),o=r(3325);const s={};function c(e,t){const r={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const r=[...s[e]];function o(t){const r=e?n.ee.get(e):n.ee,o=a.X.handlers;if(r.backlog&&o){var s=r.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete o[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),o(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>d});var n=r(8632),i=r(2210),a=r(234);class o{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),d=function e(t,r){var n={},s={},u={},f=!1;try{f=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var h={on:g,addEventListener:g,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,r,n);for(var o=p(n),c=m(e),u=c.length,l=0;l<u;l++)c[l].apply(o,r);var f=b()[s[e]];f&&f.push([h,e,r,o]);return o},get:v,listeners:m,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",h.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function g(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function v(t){return u[t]=u[t]||e(h,t)}function b(){return h.backlog}}(void 0,"globalEE"),u=(0,n.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>a});var n=r(5546);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.E,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.E);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var n=r(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>d,M:()=>c,Rl:()=>o,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var s=0;s<e;s++)o.push(a(r,++i).toString(16));return o.join("")}function c(){return s(16)}function d(){return s(32)}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,oD:()=>i});const n="NRBA",i=144e5,a=18e5},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{"use strict";r.d(t,{e:()=>i});var n=r(385);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n._A?.location?.protocol&&t.host===n._A?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>u,T:()=>l});var n=r(8325),i=r(5546),a=r(3325),o=r(385);const s="newrelic";const c={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},d=new Set;function u(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(d.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),d.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{o._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>a});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>o,b2:()=>a});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.bP)("load",e,t)}function o(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,ce:()=>a,ek:()=>d,fP:()=>o,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function d(e){let t=o();return t.initializedAgents?.[e]}function u(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{"use strict";r.d(t,{em:()=>b,u5:()=>T,QU:()=>C,Kf:()=>N});var n=r(8325),i=r(3117);const a="nr@original:".concat(i.a);var o=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,a){n||(n="");const o="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],d=e[c];u(d)||(e[c]=r(d,o?c+n:n,i,c,a))}},r.flag=a,r;function r(t,r,n,s,c){return u(t)?t:(r||(r=""),nrWrapper[a]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){d([e],r)}for(var n in e)o.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var a,o,u,l;try{o=this,a=[...arguments],u="function"==typeof n?n(a,o):n||{}}catch(t){d([t,"",[a,o,s],u],e)}i(r+"start",[a,o,s],u,c);try{return l=t.apply(o,a)}catch(e){throw i(r+"err",[a,o,e],u,c),e}finally{i(r+"end",[a,o,l],u,c)}}}function i(r,n,i,a){if(!s||t){var o=s;s=!0;try{e.emit(r,n,i,t,a)}catch(t){d([t,r,n,i],e)}s=o}}}function d(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function u(e){return!(e&&"function"==typeof e&&e.apply&&!e[a])}var l=r(2210),f=r(385);const h={},p=f._A.XMLHttpRequest,g="addEventListener",m="removeEventListener",v="nr@wrapped:".concat(n.A);function b(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=c(t,!0);function i(e){r.inPlace(e,[g,m],"-",a)}function a(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&y(document,i),y(f._A,i),y(p.prototype,i)),t.on(g+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,v,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(m+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function y(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,g);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),a=2;a<n;a++)i[a-2]=arguments[a];r&&t(r,...i)}var w="fetch-",A=w+"body-",x=["arrayBuffer","blob","json","text","formData"],_=f._A.Request,E=f._A.Response,S="prototype";const D={};function T(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(_&&E&&f._A.fetch))return t;if(D[t.debugId]++)return t;function r(e,r,i){var a=e[r];"function"==typeof a&&(e[r]=function(){var e,r=[...arguments],o={};t.emit(i+"before-start",[r],o),o[n.A]&&o[n.A].dt&&(e=o[n.A].dt);var s=a.apply(this,r);return t.emit(i+"start",[r,e],s),s.then((function(e){return t.emit(i+"end",[null,e],s),e}),(function(e){throw t.emit(i+"end",[e],s),e}))})}return D[t.debugId]=1,x.forEach((e=>{r(_[S],e,A),r(E[S],e,A)})),r(f._A,"fetch",w),t.on(w+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(w+"done",[null,r],n)}else t.emit(w+"done",[e],n)})),t}const R={},j=["pushState","replaceState"];function C(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||R[t.debugId]++||(R[t.debugId]=1,c(t).inPlace(window.history,j,"-")),t}var P=r(3239);var O=r(50);const k={},I=["open","send"];function N(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(k[r.debugId]++)return r;k[r.debugId]=1,b(t);var i=c(r),a=f._A.XMLHttpRequest,o=f._A.MutationObserver,s=f._A.Promise,d=f._A.setInterval,u="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],p=f._A.XMLHttpRequest=function(e){const t=new a(e),n=r.context(t);try{r.emit("new-xhr",[t],n),t.addEventListener(u,(o=n,function(){var e=this;e.readyState>3&&!o.resolved&&(o.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",A)}),(0,P.m$)(!1))}catch(e){(0,O.Z)("An error occurred while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}var o;return t};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",A)}if(function(e,t){for(var r in e)t[r]=e[r]}(a,p),p.prototype=a.prototype,i.inPlace(p.prototype,I,"-xhr-",A),r.on("send-xhr-start",(function(e,t){g(e,t),function(e){h.push(e),o&&(m?m.then(w):d?d(w):(v=-v,y.data=v))}(t)})),r.on("open-xhr-start",g),o){var m=s&&s.resolve();if(!d&&!s){var v=1,y=document.createTextNode(v);new o(w).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===u||w()}));function w(){for(var e=0;e<h.length;e++)g(0,h[e]);h.length&&(h=[])}function A(e,t){return t}return r}},7825:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>a,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>o});const n=r(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.sessionReplay},3614:(e,t,r)=>{"use strict";r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>d,FN_START:()=>c,PUSH_STATE:()=>u,RESOURCE:()=>a,START:()=>o});const n=r(3325).D.sessionTrace,i="bstResource",a="resource",o="-start",s="-end",c="fn"+o,d="fn"+s,u="pushState"},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),a=r(5546),o=r(8325),s=r(7894),c=r(8e3),d=r(3960),u=r(385),l=r(50),f=r(3081),h=r(8632);function p(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...n))})),a.length>1?a:a[0]}(t,...n)}}))}var g=r(2825);const m=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let v=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:x,runtime:_={loaderType:b},exposed:E=!0}=t;const S=(0,h.gG)();A||(w=S.init,A=S.info,x=S.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,x||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,A);const D=(0,i.P_)(e.agentIdentifier),T=[A.beacon,A.errorBeacon];v||(D.proxy.assets&&(m(D.proxy.assets),T.push(D.proxy.assets)),D.proxy.beacon&&T.push(D.proxy.beacon),p(),(0,h.EZ)("activatedFeatures",g.T)),_.denyList=[...D.ajax.deny_list||[],...D.ajax.block_internal?T:[]],(0,i.sU)(e.agentIdentifier,_),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const h={};var p=o.ee.get(e),g=p.get("tracer"),m="api-",v=m+"ixn-";function b(t,r,n,a){const o=(0,i.C5)(e);return null===r?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:r}}),A(m,n,!0,a||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{h[e]=A(m,e,!0,"api")})),h.addPageAction=A(m,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=A(m,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(m,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h.recordReplay=function(){(0,a.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,a.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},h.pauseReplay=function(){(0,a.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,a.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},h.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,a.p)(v+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(g.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){throw g.emit("fn-err",[arguments,this,e],r),e}finally{g.emit("fn-end",[(0,s.z)()],r)}}}};function A(e,t,r,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(63).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(v,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},u.il?(0,d.b2)((()=>x()),!0):x(),h}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=E),v=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({63:"nr-full",110:"nr-full-compressor",379:"nr-full-recorder"}[e]+"-1.249.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.249.0.PROD:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}if(!s){c=!0;var f={63:"sha512-6SDqF6rtYgQGU8n/AB/KNoGAtnScuRXs33iIg2k8vAeSoCxB9zBs5oD5kgKn1/TE6hwPINDK6Iag3Olw7m9neA==",379:"sha512-ieiEerUXfEKXwb+MZoyRDaYgftJLBlM773GS1acP/SOj1LWwntf8fOB8psncZSW2hNp6wO77OEV3phXMhQQNVQ==",110:"sha512-ASvNmzZg3ystVYtJ5V7JpTLlOPjrqtDYHF5iYO3HfPn8AK/iVqkSFfKXUhyGfL+IUdCxMHf4U5aC+IZAbXCxVg=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[o]&&(s.integrity=f[o])}e[r]=[n];var h=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(h.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=h.bind(null,s.onerror),s.onload=h.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={29:0,789:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.249.0.PROD"]=self["webpackChunk:NRBA-1.249.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(e){return"Call to agent api ".concat(e," failed. The agent is not currently initialized.")}addPageAction(t,r){(0,e.Z)(this.#e("addPageAction"))}setPageViewName(t,r){(0,e.Z)(this.#e("setPageViewName"))}setCustomAttribute(t,r,n){(0,e.Z)(this.#e("setCustomAttribute"))}noticeError(t,r){(0,e.Z)(this.#e("noticeError"))}setUserId(t){(0,e.Z)(this.#e("setUserId"))}setApplicationVersion(t){(0,e.Z)(this.#e("setApplicationVersion"))}setErrorHandler(t){(0,e.Z)(this.#e("setErrorHandler"))}finished(t){(0,e.Z)(this.#e("finished"))}addRelease(t,r){(0,e.Z)(this.#e("addRelease"))}start(t){(0,e.Z)(this.#e("start"))}recordReplay(){(0,e.Z)(this.#e("recordReplay"))}pauseReplay(){(0,e.Z)(this.#e("pauseReplay"))}}var r=i(3325),n=i(234);const a=Object.values(r.D);function o(e){const t={};return a.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(63).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(63).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b2)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var h=i(7633);class p extends f{static featureName=h.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,h.t,r),this.importAggregator()}}var g=i(1117),m=i(1284);class v extends g.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var a=this.getBucket(e,t,r,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,m.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,a.metrics),a}merge(e,t,r,n,i){var a=this.getBucket(e,t,n,i);if(a.metrics){var o=a.metrics;o.count+=r.count,(0,m.D)(r,(function(e,t){if("count"!==e){var n=o[e],i=r[e];i&&!i.c?o[e]=b(i.t,n):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=w(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,m.D)(e,A)}function A(e,t){return t}var x=i(8632),_=i(4402),E=i(4351);var S=i(5546),D=i(7956),T=i(3239),R=i(7894),j=i(9251);class C extends f{static featureName=j.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,j.t,r),l.il&&((0,D.N)((()=>(0,S.p)("docHidden",[(0,R.z)()],void 0,j.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,S.p)("winPagehide",[(0,R.z)()],void 0,j.t,this.ee))),this.importAggregator())}}var P=i(3081);class O extends f{static featureName=P.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,r),this.importAggregator()}}var k=i(6660);class I{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class N extends f{static featureName=k.t;#t=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,k.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#t.has(n)&&(this.#t.add(n),(0,S.p)("err",[this.#r(n),(0,R.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,S.p)("ierr",[this.#r(e),(0,R.z)(),!0],void 0,r.D.jserrors,this.ee)})),l._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,S.p)("err",[this.#n(e),(0,R.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,T.m$)(!1,this.removeOnAbort?.signal)),l._A.addEventListener("error",(e=>{this.abortHandler&&(this.#t.has(e.error)?this.#t.delete(e.error):(0,S.p)("err",[this.#i(e),(0,R.z)()],void 0,r.D.jserrors,this.ee))}),(0,T.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#a,this.importAggregator()}#a(){this.removeOnAbort?.abort(),this.#t.clear(),this.abortHandler=void 0}#r(e){return e instanceof Error?e:void 0!==e?.message?new I(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new I("string"==typeof e?e:(0,E.P)(e))}#n(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new I(t);const r=this.#r(e.reason);return r.message=t+r.message,r}#i(e){return e.error instanceof Error?e.error:new I(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let M=1;const z="nr@id";function L(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===l._A?0:(0,H.X)(e,z,(function(){return M++}))}function Z(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,E.P)(e).length}catch(e){return}}}var U=i(1214),B=i(7243);class F{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,a=(t.trustKey||"").toString()||null;if(!r||!i)return null;var o=(0,_.M)(),s=(0,_.Ht)(),c=Date.now(),d={spanId:o,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(o,s),d.traceContextStateHeader=this.generateTraceContextStateHeader(o,c,r,i,a)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(o,s,c,r,i,a)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,a){if(!("function"==typeof l._A?.btoa))return null;var o={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return a&&n!==a&&(o.d.tk=a),btoa((0,E.P)(o))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var a=(0,B.e)(r.allowed_origins[i]);if(e.hostname===a.hostname&&e.protocol===a.protocol&&e.port===a.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var q=i(7825),V=["load","error","abort","timeout"],G=V.length,W=n.Yu.REQ,X=n.Yu.XHR;class K extends f{static featureName=q.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,q.t,i),(0,n.OP)(e).xhrWrappable){this.dt=new F(e),this.handler=(e,t,r,n)=>(0,S.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};l._A?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const n={status:t.responseStatus},i={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};Y(n,t.name),this.handler("xhr",[n,i,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,r.D.ajax)}}))}catch(e){}(0,U.u5)(this.ee),(0,U.Kf)(this.ee),function(e,t,i,a){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=x,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){_(t,e)}),(0,T.m$)(!1)),l.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,T.m$)(!1))}function s(e){this.params={method:e[0]},Y(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var o=a.generateTracePayload(this.parsedOrigin);if(o){var s=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),s=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),s=!0),s&&(this.dt=o)}}function d(e,r){var n=this.metrics,i=e[0],a=this;if(n&&i){var o=Z(i);o&&(n.txSize=o)}this.startTime=(0,R.z)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof a.end)&&a.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<G;s++)r.addEventListener(V[s],this.listener,(0,T.m$)(!1))}function u(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+L(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+L(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,R.z)()}function g(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof X&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,R.z)()))}function b(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,R.z)()-this.xhrCbStart,this.onload,r],r)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&l.il&&(t=""+l._A.location.href):e[0]&&e[0].url?t=e[0].url:l._A?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,B.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=a.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,n)&&(this.dt=n);else{var i={};for(var o in r)i[o]=r[o];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function w(e,t){this.params={},this.metrics={},this.startTime=(0,R.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:l._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),Y(this,r);var a=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=a,this.body=n.body,this.txSize=Z(n.body)||0}function A(e,t){var n;this.endTime=(0,R.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var a={txSize:this.txSize,rxSize:n,duration:(0,R.z)()-this.startTime};i("xhr",[this.params,a,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function x(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var a=0;a<G;a++)e.removeEventListener(V[a],this.listener,!1);t.aborted||(n.duration=(0,R.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):_(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function _(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?Z(e.response):"text"===r||""===r||void 0===r?Z(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",d),t.on("xhr-cb-time",u),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",p),t.on("addEventListener-end",g),t.on("removeEventListener-end",m),t.on("fn-end",b),t.on("fetch-before-start",y),t.on("fetch-start",w),t.on("fn-start",v),t.on("fetch-done",A)}(e,this.ee,this.handler,this.dt),this.importAggregator()}}}function Y(e,t){var r=(0,B.e)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var Q=i(3614);const{BST_RESOURCE:J,RESOURCE:ee,START:te,END:re,FEATURE_NAME:ne,FN_END:ie,FN_START:ae,PUSH_STATE:oe}=Q;var se=i(7144);class ce extends f{static featureName=se.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,se.t,r),this.importAggregator()}}var de=i(4649);class ue extends f{static featureName=de.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,de.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,_.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new v({agentIdentifier:this.agentIdentifier}),this.features={},(0,x.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=o(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,x.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,C,class extends f{static featureName=ne;constructor(e,t){if(super(e,t,ne,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;const n=this.ee;let i;(0,U.QU)(n),this.eventsEE=(0,U.em)(n),this.eventsEE.on(ae,(function(e,t){this.bstStart=(0,R.z)()})),this.eventsEE.on(ie,(function(e,t){(0,S.p)("bst",[e[0],t,this.bstStart,(0,R.z)()],void 0,r.D.sessionTrace,n)})),n.on(oe+te,(function(e){this.time=(0,R.z)(),this.startPath=location.pathname+location.hash})),n.on(oe+re,(function(e){(0,S.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,S.p)(J,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:ee,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},ce,K,O,ue,N],loaderType:"pro"})})()})();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Krispy on Direct.me</title>
+
+  <link rel="stylesheet" href="static/css/style.css?v=1705007970">
+  <link rel="stylesheet" href="static/css/animate.css?v=1705007970">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="">
+  <meta name="msapplication-config" content="/favicons/4_browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="facebook-domain-verification" content="xiacyf9aymjtcf6tuoqirextu1468e">
+  <meta name="site-url" content="https://direct.me">
+  <meta property="og:image" content="https://cdn.direct.me/avatars/4018.png?1702063225">
+
+
+  <meta property="og:description" content="Everything about Krispy in one place. Follow and Connect with Krispy">
+
+
+  <script async="" defer="" data-domain="direct.me" src="js/plausible.js"
+    type="41882e5a277347ac75383d08-text/javascript"></script>
+  <script type="41882e5a277347ac75383d08-text/javascript">
+      window.plausible = window.plausible || function() {
+        (window.plausible.q = window.plausible.q || []).push(arguments)
+      }
+    </script>
+
+  <link href="css2-1?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="animated fadeIn preload">
+  <div class="body loggedOut">
+
+
+
+
+
+
+    <div class="profileMenu">
+      <div class="containerSm">
+        <div class="profileMenuBar">
+          <div class="profileLogo">
+            <div>
+              <div style="height:3rem"></div>
+              <div class="avatarBlock">
+                <a class="avatar" href="KrispyMatt.html">
+                  <img src="qceAxL71rDZo4r9zVHuZFUv_Kyg%3D/250x250/httpscdn.direct.meavatars4018.png1702063225"
+                    alt="Krispy" class="account-card-avatar">
+                </a>
+                <div>
+                  <h3 class="avatarBlockName">Krispy <svg
+                      title="This profile has been verified as genuine by the Direct.me team." rel="tooltip"
+                      class="verified" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px" y="0px" viewbox="0 0 48 48">>
+                      <path fill="#2ed6ff"
+                        d="M32.35,44.87a.86.86,0,0,1,.51-.21,12.7,12.7,0,0,0,11.8-11.8.86.86,0,0,1,.21-.51,12.7,12.7,0,0,0,0-16.7.86.86,0,0,1-.21-.51,12.7,12.7,0,0,0-11.8-11.8.86.86,0,0,1-.51-.21,12.7,12.7,0,0,0-16.7,0,.86.86,0,0,1-.51.21,12.7,12.7,0,0,0-11.8,11.8.86.86,0,0,1-.21.51,12.7,12.7,0,0,0,0,16.7.86.86,0,0,1,.21.51,12.7,12.7,0,0,0,11.8,11.8.86.86,0,0,1,.51.21,12.7,12.7,0,0,0,16.7,0Z"
+                        transform="translate(0)"></path>
+                      <path fill="#fff"
+                        d="M17.63,34.11a2.44,2.44,0,0,0,3.45,0l6.07-6.06,3.26-3.27h0l7.88-7.88a2.07,2.07,0,0,0,0-2.93l-.13-.13a2.25,2.25,0,0,0-3.2,0l-7.41,7.41-3.26,3.26h0l-3.21,3.21a2.44,2.44,0,0,1-3.45,0L13,23.05a2.26,2.26,0,0,0-3.19,0h0a2.25,2.25,0,0,0,0,3.2Z"
+                        transform="translate(0)"></path>
+                    </svg></h3>
+                  <span class="avatarBlockSub">on direct.me</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div>
+            <a href="krispymatt/send-a-tip/6WQ/buy.html" data-target="#accessModal" data-toggle="modal"
+              data-modal-class="containerSm" data-content="https://direct.me/krispymatt/send-a-tip/6WQ/buy"
+              data-redirect-on-fail="/KrispyMatt" class="button buttonIcon buttonDark" data-accountid="3di"
+              data-itemid="6WQ" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WQ&quot;,&quot;location&quot;:&quot;profile&quot;}">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cash" width="24" height="24"
+                viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M7 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                <path d="M14 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2"></path>
+              </svg>
+
+
+            </a>
+
+
+            <a href="#profileShareModal" id="openProfileShareModal" class="button buttonDark buttonIcon"
+              data-title="Krispy on Direct.me" data-url="https://direct.me/KrispyMatt">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share-3" width="24"
+                height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z"></path>
+              </svg>
+
+
+            </a>
+
+            <a href="#profileModal" data-target="#profileModal" data-toggle="modal"
+              class="button buttonDark buttonIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots" width="24" height="24"
+                viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+              </svg>
+
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main id="profile" class="layout" data-track-view="{&quot;profileId&quot;:&quot;3di&quot;}">
+
+
+
+      <div class="profileHeader">
+        <div class="containerSm">
+
+          <span class="profileHeaderAvatar profileHeaderAvatarRound">
+            <img id="profileAvatar"
+              src="qceAxL71rDZo4r9zVHuZFUv_Kyg%3D/250x250/httpscdn.direct.meavatars4018.png1702063225" alt="Krispy">
+          </span>
+          <h1>
+            Krispy <svg title="This profile has been verified as genuine by the Direct.me team." rel="tooltip"
+              class="verified" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" viewbox="0 0 48 48">>
+              <path fill="#2ed6ff"
+                d="M32.35,44.87a.86.86,0,0,1,.51-.21,12.7,12.7,0,0,0,11.8-11.8.86.86,0,0,1,.21-.51,12.7,12.7,0,0,0,0-16.7.86.86,0,0,1-.21-.51,12.7,12.7,0,0,0-11.8-11.8.86.86,0,0,1-.51-.21,12.7,12.7,0,0,0-16.7,0,.86.86,0,0,1-.51.21,12.7,12.7,0,0,0-11.8,11.8.86.86,0,0,1-.21.51,12.7,12.7,0,0,0,0,16.7.86.86,0,0,1,.21.51,12.7,12.7,0,0,0,11.8,11.8.86.86,0,0,1,.51.21,12.7,12.7,0,0,0,16.7,0Z"
+                transform="translate(0)"></path>
+              <path fill="#fff"
+                d="M17.63,34.11a2.44,2.44,0,0,0,3.45,0l6.07-6.06,3.26-3.27h0l7.88-7.88a2.07,2.07,0,0,0,0-2.93l-.13-.13a2.25,2.25,0,0,0-3.2,0l-7.41,7.41-3.26,3.26h0l-3.21,3.21a2.44,2.44,0,0,1-3.45,0L13,23.05a2.26,2.26,0,0,0-3.19,0h0a2.25,2.25,0,0,0,0,3.2Z"
+                transform="translate(0)"></path>
+            </svg> </h1>
+          <p class="bio">
+            <a href="KrispyMatt.html">@KrispyMatt</a>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="profileItemsContainer containerSm">
+        <div>
+
+          <div id="profileElement1782548" class=" ">
+
+            <div class="profileSocialIcons" style="margin-bottom: 1.5rem">
+              <div class="scroll flex justifyContentCenter">
+                <div class="scrollInner">
+                  <div class="scrollItem mr-1">
+                    <a href="https://www.facebook.com/krispy.matt.3" target="_blank" rel="noopener noreferrer">
+                      <div class="profileSocialIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48">
+                          <path fill="currentColor"
+                            d="M19.33 46V25.93h-6.755v-7.822h6.754v-5.769C19.33 5.645 23.418 2 29.39 2c2.861 0 5.32.213 6.036.308v6.996l-4.142.002c-3.248 0-3.876 1.543-3.876 3.808v4.994h7.745l-1.008 7.822h-6.737V46h-8.078z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="scrollItem mr-1">
+                    <a href="https://www.twitter.com/krispy_matt" target="_blank" rel="noopener noreferrer">
+                      <div class="profileSocialIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48">
+                          <path fill="currentColor"
+                            d="M48 9.1c-1.8.8-3.7 1.3-5.7 1.6 2-1.2 3.6-3.1 4.3-5.4-1.9 1.1-4 1.9-6.3 2.4-1.8-1.9-4.4-3.1-7.2-3.1-5.4 0-9.8 4.4-9.8 9.8 0 .8.1 1.5.3 2.2-8.1-.4-15.4-4.3-20.3-10.3C2.5 7.8 2 9.4 2 11.2c0 3.4 1.7 6.4 4.4 8.2-1.6-.1-3.1-.5-4.5-1.2v.1c0 4.8 3.4 8.8 7.9 9.7-.8.2-1.7.3-2.6.3-.6 0-1.3-.1-1.9-.2 1.3 3.9 4.9 6.8 9.2 6.8-3.4 2.6-7.6 4.2-12.2 4.2-.8 0-1.6 0-2.3-.1 4.4 2.8 9.5 4.4 15.1 4.4 18.1 0 28-15 28-28v-1.3c1.9-1.3 3.6-3 4.9-5z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="scrollItem mr-1">
+                    <a href="https://www.instagram.com/krispymatt" target="_blank" rel="noopener noreferrer">
+                      <div class="profileSocialIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48">
+                          <g fill="currentColor">
+                            <path
+                              d="M24 4.324c6.408 0 7.167.024 9.698.14 2.731.125 5.266.672 7.216 2.622 1.95 1.95 2.497 4.485 2.622 7.216.115 2.531.14 3.29.14 9.698s-.024 7.167-.14 9.698c-.125 2.731-.672 5.266-2.622 7.216-1.95 1.95-4.485 2.497-7.216 2.622-2.53.115-3.289.14-9.698.14s-7.168-.024-9.698-.14c-2.731-.125-5.266-.672-7.216-2.622-1.95-1.95-2.497-4.485-2.622-7.216-.115-2.531-.14-3.29-.14-9.698s.024-7.167.14-9.698c.125-2.731.672-5.266 2.622-7.216 1.95-1.95 4.485-2.497 7.216-2.622 2.531-.115 3.29-.14 9.698-.14M24 0c-6.518 0-7.335.028-9.895.144-3.9.178-7.326 1.133-10.077 3.884C1.278 6.778.322 10.203.144 14.105.028 16.665 0 17.482 0 24s.028 7.335.144 9.895c.178 3.9 1.133 7.326 3.884 10.077 2.75 2.75 6.175 3.706 10.077 3.884 2.56.116 3.377.144 9.895.144s7.335-.028 9.895-.144c3.899-.178 7.326-1.133 10.077-3.884 2.75-2.75 3.706-6.175 3.884-10.077.116-2.56.144-3.377.144-9.895s-.028-7.335-.144-9.895c-.178-3.9-1.133-7.326-3.884-10.077-2.75-2.75-6.175-3.706-10.077-3.884C31.335.028 30.518 0 24 0z">
+                            </path>
+                            <path data-color="color-2"
+                              d="M24 11.676c-6.807 0-12.324 5.518-12.324 12.324S17.193 36.324 24 36.324 36.324 30.807 36.324 24 30.807 11.676 24 11.676zM24 32a8 8 0 1 1 0-16 8 8 0 0 1 0 16z">
+                            </path>
+                            <circle data-color="color-2" cx="36.811" cy="11.189" r="2.88"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="scrollItem mr-1">
+                    <a href="https://youtube.com/c/Krispymatt" target="_blank" rel="noopener noreferrer">
+                      <div class="profileSocialIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48">
+                          <path fill="currentColor"
+                            d="M47.5 14.4s-.5-3.3-1.9-4.8c-1.8-1.9-3.9-1.9-4.8-2-6.7-.5-16.8-.5-16.8-.5s-10.1 0-16.8.5c-.9.1-3 .1-4.8 2C1 11.1.5 14.4.5 14.4S0 18.3 0 22.2v3.6c0 3.9.5 7.8.5 7.8s.5 3.3 1.9 4.8c1.8 1.9 4.2 1.9 5.3 2.1 3.8.4 16.3.5 16.3.5s10.1 0 16.8-.5c.9-.1 3-.1 4.8-2 1.4-1.5 1.9-4.8 1.9-4.8s.5-3.9.5-7.8v-3.6c0-4-.5-7.9-.5-7.9zM19 30.2V16.7l13 6.8-13 6.7z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="scrollItem mr-1">
+                    <a href="https://www.tiktok.com/@krispy.matt" target="_blank" rel="noopener noreferrer">
+                      <div class="profileSocialIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32">
+                          <path
+                            d="M13.586 11.917v5.5a4.784 4.784 0 0 0-6 4.431 4.324 4.324 0 0 0 4.623 4.589c3.416 0 4.623-2.4 4.623-4.651V0h5.438c.925 5.753 3.8 7.088 7.654 7.705v5.512s-4.572-.325-7.5-2.533v10.889C22.421 26.5 19.5 32 12.25 32 5.522 32 2.08 26.3 2.08 21.522a10.02 10.02 0 0 1 11.506-9.605Z"
+                            fill="currentColor"></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+            <style>
+              #profileElement1782548 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement1069559" class=" ">
+
+            <div class="profileElement profileElementText button-style-sharp profileElementWithIcon"
+              data-accountid="3di" data-itemid="7uWG" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;7uWG&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 9l9 6l9 -6l-9 -6l-9 6"></path>
+                    <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"></path>
+                    <path d="M3 19l6 -6"></path>
+                    <path d="M15 13l6 6"></path>
+                  </svg>
+
+
+                </div>
+                <h2>PO BOX #2745, Alpine, WY, 83128</h2>
+              </div>
+            </div>
+
+
+
+
+
+            <style>
+              #profileElement1069559 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement2864239" class=" ">
+
+
+
+            <a href="https://ig.me/j/AbY7EELwD7hRRwn6/" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp profileElementWithIcon" data-accountid="3di"
+              data-itemid="gGss" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;gGss&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementSmallImage">
+                  <img
+                    data-src="https://mystique.direct.me/GXsiGgYxKA2m4cOBx-VVzvGWVjc=/96x96/https%3A%2F%2Fcdn.direct.me%2Fimages%2F2864239_icon_prod.png"
+                    class="lazy">
+                </div>
+                <h2>JOIN MY FAMILY FREE</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement2864239 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement791031" class=" ">
+
+
+
+            <a href="https://youtu.be/W4afx8PsA0E" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp profileElementWithIcon" data-accountid="3di"
+              data-itemid="65au" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;65au&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
+                    <path d="M10 9l5 3l-5 3z"></path>
+                  </svg>
+
+
+                </div>
+                <h2>New YouTube Video</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement791031 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement1394547" class=" ">
+
+
+
+            <a href="https://Krispyfit.com" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp" data-accountid="3di" data-itemid="9ayV"
+              data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;9ayV&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <h2>Krispyfit - MyFitnessApp</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement1394547 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement16638" class=" ">
+
+
+
+            <a href="https://glnk.io/0m3ml/krispymatt" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp profileElementWithIcon" data-accountid="3di"
+              data-itemid="6WS" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WS&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementSmallImage">
+                  <img
+                    data-src="https://mystique.direct.me/8uxU4NSZJ4bSVN-2YNjMJx6yqIE=/96x96/https%3A%2F%2Fcdn.direct.me%2Fimages%2F16638_item_prod.png%3F1664987788"
+                    class="lazy">
+                </div>
+                <h2>MySupplements</h2>
+                <h3>Use code: KRISPYMATT</h3>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement16638 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement16637" class=" ">
+
+
+
+            <a href="https://www.snapchat.com/add/krispy_matt" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp profileElementWithIcon" data-accountid="3di"
+              data-itemid="6WR" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WR&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementSmallImage">
+                  <img
+                    data-src="https://mystique.direct.me/e2S818oRh5cKWG3fIUhW1-wt33E=/96x96/https%3A%2F%2Fcdn.direct.me%2Fimages%2F16637_item_prod.png%3F1618376460"
+                    class="lazy">
+                </div>
+                <h2>Snapchat</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement16637 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement25289" class=" ">
+
+
+
+            <a href="https://www.amazon.com/hz/wishlist/ls/3DO22EJ4D84L3?ref_=wl_share" target="_blank"
+              rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp profileElementWithIcon" data-accountid="3di"
+              data-itemid="9x3" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;9x3&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementSmallImage">
+                  <img
+                    data-src="https://mystique.direct.me/Xzp0fGUkUyMOiZJB-t2P6E-L2go=/96x96/https%3A%2F%2Fcdn.direct.me%2Fimages%2F25289_item_prod.png"
+                    class="lazy">
+                </div>
+                <h2>Amazon Wishlist</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement25289 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement16641" class=" ">
+
+
+
+            <a href="" data-target="#accessModal" data-toggle="modal" data-modal-class="containerSm"
+              data-content="https://direct.me/krispymatt/personal-video-message-from-me/6WV/buy"
+              data-redirect-on-fail="/KrispyMatt"
+              class="profileElement profileElementVideo button-style-sharp profileElementWithPrice profileElementWithIcon"
+              data-accountid="3di" data-itemid="6WV" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WV&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <div class="profileElementIcon">
+                  <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px" y="0px" width="22px" height="22px" viewbox="0 0 72 72"
+                    style="enable-background:new 0 0 72 72;" xml:space="preserve">
+                    <g>
+                      <path fill="currentColor" d="M61.46,10.54C54.66,3.74,45.62,0,36,0S17.34,3.74,10.54,10.54C3.74,17.35,0,26.39,0,36
+							c0,9.62,3.74,18.65,10.54,25.45S26.38,72,36,72s18.66-3.75,25.46-10.55S72,45.62,72,36C72,26.39,68.26,17.35,61.46,10.54z
+							 M66.81,36c0,16.99-13.82,30.81-30.81,30.81S5.19,52.99,5.19,36S19.01,5.19,36,5.19S66.81,19.01,66.81,36z"></path>
+                      <path fill="currentColor" d="M52.77,33.9L27.82,15.87c-0.79-0.57-1.83-0.65-2.7-0.21c-0.87,0.44-1.41,1.33-1.41,2.31v36.04
+							c0,0.98,0.54,1.86,1.41,2.31c0.36,0.19,0.77,0.28,1.18,0.28c0.55,0,1.07-0.17,1.52-0.49L52.77,38.1c0.67-0.49,1.08-1.27,1.08-2.1
+							C53.84,35.17,53.44,34.38,52.77,33.9z M46.82,36L28.89,48.95V23.05L46.82,36z"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h2>Personal Video Message From Me</h2>
+                <div class="profileElementPrice buttonPrimary">
+                  Buy </div>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement16641 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement16636" class=" ">
+
+
+
+
+
+            <style>
+              #profileElement16636 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement360296" class=" ">
+
+
+
+            <a href="https://onlyfans.com/?ref=32221218" target="_blank" rel="noopener noreferrer"
+              class="profileElement profileElementLink button-style-sharp" data-accountid="3di" data-itemid="3R82"
+              data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;3R82&quot;,&quot;location&quot;:&quot;profile&quot;}">
+
+              <div class="profileElementContent">
+                <h2>OF Referral</h2>
+              </div>
+            </a>
+
+
+
+
+            <style>
+              #profileElement360296 {}
+            </style>
+
+          </div>
+
+
+
+
+
+          <div id="profileElement16635" class=" ">
+
+            <div class="profileElement profileElementUpdates button-style-sharp profileElementWithIcon"
+              data-accountid="3di" data-itemid="6WP" data-location="profile"
+              data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WP&quot;,&quot;location&quot;:&quot;profile&quot;}">
+              <div class="profileElementContent">
+                <div class="profileElementSmallImage">
+                  <img
+                    data-src="https://mystique.direct.me/qceAxL71rDZo4r9zVHuZFUv_Kyg=/250x250/https%3A%2F%2Fcdn.direct.me%2Favatars%2F4018.png%3F1702063225"
+                    class="lazy">
+                </div>
+                <h2>Get updates about me</h2>
+                <h3 class="mb-0">Get notifications when anything is added to this page.</h3>
+              </div>
+              <div style="padding: 0 1rem 1.5rem 1rem; max-width: 30rem;margin: 0 auto">
+                <form method="post" action="https://direct.me/register" id="profileRegisterForm">
+                  <div class="slides">
+                    <div id="updatesName" class="slide active">
+                      <div class="inputRow">
+                        <input class="inputControl" placeholder="Bob" id="reg_name" name="reg_name" value="">
+                        <label class="inputLabel" for="reg_name">Your Name</label>
+                      </div>
+
+                      <a href="#updatesEmail" data-toggle="slide" data-target="#updatesEmail"
+                        class="button buttonPrimary buttonWide">
+                        Next
+                      </a>
+                    </div>
+
+                    <div id="updatesEmail" class="slide" data-content="https://direct.me/KrispyMatt/updates"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
+
+
+            <style>
+              #profileElement16635 {}
+            </style>
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="textCenter pt-3">
+          <a href="krispymatt/send-a-tip/6WQ/buy.html" data-target="#accessModal" data-toggle="modal"
+            data-modal-class="containerSm" data-content="https://direct.me/krispymatt/send-a-tip/6WQ/buy"
+            data-redirect-on-fail="/KrispyMatt" class="button buttonDark buttonLongarge buttonLong" data-accountid="3di"
+            data-itemid="6WQ" data-location="profile"
+            data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WQ&quot;,&quot;location&quot;:&quot;profile&quot;}">
+            Send tip
+          </a>
+        </div>
+
+
+      </div>
+
+
+    </main>
+
+    <div id="profileNewSignup" data-featured-profile-item-static="" class="modal containerXs profileSignupModal">
+      <div class="modalWithFeaturedOverlay containerXs">
+        <button data-dismiss="modal" class="modalClose">
+          &times;
+        </button>
+
+        <div class="modalBody textCenter">
+          <div class="flex justifyContentCenter">
+            <img src="Z3s3pJrG9EofyJS-DQ-SHaXilEg%3D/70x70/httpscdn.direct.meavatars4018.png1702063225" alt="Krispy"
+              class="avatar mb-2" style="border: 2px solid var(--gray-100)">
+            <div style="width:3rem;height:3rem;margin-left:-0.5rem;border: 2px solid var(--gray-100)">
+              <svg viewbox="0 0 911 910" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M426.9 1.1C300.4 8.7 181.3 70.2 101.5 168.9 23 266.3-12 390.1 4 514c26.5 204 188.1 365.4 392.5 392 112.3 14.6 227.1-13.5 319.5-78.3 80-56 139.6-135.7 170.6-227.9 24.5-73 30.1-154.3 15.8-229.3C880 253.4 813.7 150.8 716 82.3 632.2 23.5 530.3-5.2 426.9 1.1zM586 183.5c15.4 2.8 31.5 8.1 46.5 15.4 49.2 24.1 82.7 67.9 93.7 122.3 2 9.6 2.3 14.4 2.3 32.3s-.3 22.7-2.3 32.3c-15.3 75.5-75.4 130.8-151.4 139.1-5.4.6-12.6 1.1-16.1 1.1h-6.4l-2.2-10.8c-2.9-13.6-7.2-27-12.7-39.6l-4.3-9.8 3.2.6c1.8.3 8.4.9 14.7 1.2 32.8 1.9 63.5-10 87-33.6 14.1-14.2 24.5-32.2 29.7-51.7 2.5-9 2.7-11.4 2.7-28.8 0-17.5-.2-19.8-2.7-29-5.3-19.5-19-42.5-32.8-54.9-31.1-28-72.3-37.3-112.2-25.5-9.1 2.7-26.7 11.7-34.8 17.8-8.1 6.2-20.3 18.9-25.6 26.7-17.3 25.5-24 58.6-17.8 87.9l1.5 7-22.4 22.4-22.4 22.4-2.2-4.9c-4.4-9.9-10-28.4-12.1-40-3-16.6-3.1-43-.1-59.5 9.6-52.9 41.9-97.3 89.4-122.8 15.7-8.5 38.2-15.8 55.3-18 4.4-.6 9.4-1.3 11-1.5 6.3-.9 34.4.4 43.5 1.9zM570.9 328c9.9 6.3 15.4 15.4 15.4 25.5.1 12.2 5.8 5.9-110.6 122.1-73.9 73.9-107.4 106.7-110.2 107.9-5.8 2.7-15.5 3.2-21.3.9-5.6-2.1-14.6-10.3-17.4-15.9-1.2-2.2-2.3-6.8-2.6-10.2-1-12.6-8.5-4.2 109.7-122.7 84.6-84.8 107.6-107.3 111.6-109.3 4.3-2.1 6.1-2.4 12.6-2 6.6.3 8.4.8 12.8 3.7zm-210.8 65.5c2.6 13.3 6.4 25.6 11.9 38.5 2.7 6.3 4.8 11.6 4.6 11.7-.2.2-3.4-.1-7.2-.7-26.8-3.8-56.1 2.9-79.4 18.2-8.9 5.8-23.8 20.4-29.9 29.3-15.8 22.8-23.2 51.2-20.3 77.4 2.2 19.7 9.2 38.6 20.2 54.5 6 8.7 20.1 22.7 28.9 28.5 30.1 20.3 67.3 25.5 101.3 14.1 39.6-13.3 69.2-47.7 76.3-88.8 2-11.1 1.9-28.5-.1-40.2l-1.6-9.3 21.8-21.8c12.1-12.1 22.2-21.9 22.5-21.9 1.5 0 8.2 18.2 11.4 30.5 4.1 16 5.5 27.2 5.5 43.5-.1 46.3-18.2 89.4-51.4 122.3-24.5 24.3-57.2 41-92.1 47.3-12.2 2.2-42 2.5-54 .6C256.9 715.7 201.3 664 185.4 594c-6.8-30-5-63.6 5.1-93.5 4-12 14.7-32.8 22.3-43.5 8.3-11.7 28.9-32.5 40-40.4 22.6-16 49-26.7 75.2-30.5 12.1-1.8 13.1-1.8 21.9-1.7l8.4.1 1.8 9z"
+                  fill="#FF1053" fill-rule="nonzero"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="mb-2" style="font-weight:500">Join <b>Krispy</b> on Direct.me</h3>
+          <a href="https://direct.me/register?location=profileModal&actiondata=KrispyMatt"
+            class="button buttonLong buttonPrimary">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="profileModal">
+      <div class="modalBody">
+
+        <div class="list">
+          <div class="listBody">
+            <div class="avatarBlock mb-2">
+              <div class="avatar">
+                <img src="wVVggB2B3i4rAbqvvcKuJ_h0z2E%3D/200x200/httpscdn.direct.meavatars4018.png1702063225"
+                  alt="Krispy">
+              </div>
+              <div>
+                <h2 class="avatarBlockName">Krispy</h2>
+                <a href="KrispyMatt.html" class="avatarBlockSub textPrimary">direct.me/KrispyMatt</a>
+              </div>
+
+            </div>
+
+            <div class="flex">
+              <a href="#" data-target="#accessModal" data-toggle="modal" data-modal-class="containerSm"
+                data-content="https://direct.me/krispymatt/send-a-tip/6WQ/buy" data-redirect-on-fail="/KrispyMatt"
+                data-accountid="3di" data-itemid="6WQ" data-location="menu"
+                data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WQ&quot;,&quot;location&quot;:&quot;profile&quot;}"
+                class="button w-full buttonPrimary ml-2 mt-3">
+                Send tip
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <h4 class="listTitle">Connect with Krispy</h4>
+        <div class="list">
+
+          <a href="#" data-target="#accessModal" data-toggle="modal" data-modal-class="containerSm"
+            data-content="https://direct.me/krispymatt/personal-video-message-from-me/6WV/buy"
+            data-redirect-on-fail="/KrispyMatt" class="listItem" data-accountid="3di" data-itemid="6WV"
+            data-location="menu"
+            data-track-click="{&quot;profileId&quot;:&quot;3di&quot;,&quot;itemId&quot;:&quot;6WV&quot;,&quot;location&quot;:&quot;profile&quot;}">
+            <div class="listItemIcon">
+              <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="22px" height="22px" viewbox="0 0 72 72" style="enable-background:new 0 0 72 72;"
+                xml:space="preserve">
+                <g>
+                  <path fill="currentColor" d="M61.46,10.54C54.66,3.74,45.62,0,36,0S17.34,3.74,10.54,10.54C3.74,17.35,0,26.39,0,36
+							c0,9.62,3.74,18.65,10.54,25.45S26.38,72,36,72s18.66-3.75,25.46-10.55S72,45.62,72,36C72,26.39,68.26,17.35,61.46,10.54z
+							 M66.81,36c0,16.99-13.82,30.81-30.81,30.81S5.19,52.99,5.19,36S19.01,5.19,36,5.19S66.81,19.01,66.81,36z"></path>
+                  <path fill="currentColor" d="M52.77,33.9L27.82,15.87c-0.79-0.57-1.83-0.65-2.7-0.21c-0.87,0.44-1.41,1.33-1.41,2.31v36.04
+							c0,0.98,0.54,1.86,1.41,2.31c0.36,0.19,0.77,0.28,1.18,0.28c0.55,0,1.07-0.17,1.52-0.49L52.77,38.1c0.67-0.49,1.08-1.27,1.08-2.1
+							C53.84,35.17,53.44,34.38,52.77,33.9z M46.82,36L28.89,48.95V23.05L46.82,36z"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="listItemBody">
+              Personal Video Message From Me </div>
+            <div class="listItemRight">
+              <span class="button buttonSmall">$70.00</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="list">
+          <a href="/register" class="listItem">
+            <div class="listItemIcon">
+              <svg viewbox="0 0 911 910" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M426.9 1.1C300.4 8.7 181.3 70.2 101.5 168.9 23 266.3-12 390.1 4 514c26.5 204 188.1 365.4 392.5 392 112.3 14.6 227.1-13.5 319.5-78.3 80-56 139.6-135.7 170.6-227.9 24.5-73 30.1-154.3 15.8-229.3C880 253.4 813.7 150.8 716 82.3 632.2 23.5 530.3-5.2 426.9 1.1zM586 183.5c15.4 2.8 31.5 8.1 46.5 15.4 49.2 24.1 82.7 67.9 93.7 122.3 2 9.6 2.3 14.4 2.3 32.3s-.3 22.7-2.3 32.3c-15.3 75.5-75.4 130.8-151.4 139.1-5.4.6-12.6 1.1-16.1 1.1h-6.4l-2.2-10.8c-2.9-13.6-7.2-27-12.7-39.6l-4.3-9.8 3.2.6c1.8.3 8.4.9 14.7 1.2 32.8 1.9 63.5-10 87-33.6 14.1-14.2 24.5-32.2 29.7-51.7 2.5-9 2.7-11.4 2.7-28.8 0-17.5-.2-19.8-2.7-29-5.3-19.5-19-42.5-32.8-54.9-31.1-28-72.3-37.3-112.2-25.5-9.1 2.7-26.7 11.7-34.8 17.8-8.1 6.2-20.3 18.9-25.6 26.7-17.3 25.5-24 58.6-17.8 87.9l1.5 7-22.4 22.4-22.4 22.4-2.2-4.9c-4.4-9.9-10-28.4-12.1-40-3-16.6-3.1-43-.1-59.5 9.6-52.9 41.9-97.3 89.4-122.8 15.7-8.5 38.2-15.8 55.3-18 4.4-.6 9.4-1.3 11-1.5 6.3-.9 34.4.4 43.5 1.9zM570.9 328c9.9 6.3 15.4 15.4 15.4 25.5.1 12.2 5.8 5.9-110.6 122.1-73.9 73.9-107.4 106.7-110.2 107.9-5.8 2.7-15.5 3.2-21.3.9-5.6-2.1-14.6-10.3-17.4-15.9-1.2-2.2-2.3-6.8-2.6-10.2-1-12.6-8.5-4.2 109.7-122.7 84.6-84.8 107.6-107.3 111.6-109.3 4.3-2.1 6.1-2.4 12.6-2 6.6.3 8.4.8 12.8 3.7zm-210.8 65.5c2.6 13.3 6.4 25.6 11.9 38.5 2.7 6.3 4.8 11.6 4.6 11.7-.2.2-3.4-.1-7.2-.7-26.8-3.8-56.1 2.9-79.4 18.2-8.9 5.8-23.8 20.4-29.9 29.3-15.8 22.8-23.2 51.2-20.3 77.4 2.2 19.7 9.2 38.6 20.2 54.5 6 8.7 20.1 22.7 28.9 28.5 30.1 20.3 67.3 25.5 101.3 14.1 39.6-13.3 69.2-47.7 76.3-88.8 2-11.1 1.9-28.5-.1-40.2l-1.6-9.3 21.8-21.8c12.1-12.1 22.2-21.9 22.5-21.9 1.5 0 8.2 18.2 11.4 30.5 4.1 16 5.5 27.2 5.5 43.5-.1 46.3-18.2 89.4-51.4 122.3-24.5 24.3-57.2 41-92.1 47.3-12.2 2.2-42 2.5-54 .6C256.9 715.7 201.3 664 185.4 594c-6.8-30-5-63.6 5.1-93.5 4-12 14.7-32.8 22.3-43.5 8.3-11.7 28.9-32.5 40-40.4 22.6-16 49-26.7 75.2-30.5 12.1-1.8 13.1-1.8 21.9-1.7l8.4.1 1.8 9z"
+                  fill="#FF1053" fill-rule="nonzero"></path>
+              </svg>
+            </div>
+            <div class="listItemBody">
+              Create your page
+            </div>
+            <div class="listItemIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 6l6 6l-6 6"></path>
+              </svg>
+
+
+            </div>
+          </a>
+          <a href="/login" class="listItem">
+            <div class="listItemIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-login" width="24" height="24"
+                viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path>
+                <path d="M20 12h-13l3 -3m0 6l-3 -3"></path>
+              </svg>
+
+
+            </div>
+            <div class="listItemBody">
+              Login
+            </div>
+            <div class="listItemIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 6l6 6l-6 6"></path>
+              </svg>
+
+
+            </div>
+          </a>
+        </div>
+
+        <div class="list">
+          <a href="#profileReportModal" data-target="#profileReportModal"
+            data-content="https://direct.me/KrispyMatt/report" data-toggle="modal" class="listItem">
+            <div class="listItemIcon textError">
+              <svg id="Raw" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <line x1="128" y1="96" x2="128" y2="144" fill="none" stroke="currentColor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="16"></line>
+                <path
+                  d="M114.15243,39.98472,26.17616,191.977a16.00005,16.00005,0,0,0,13.84762,24.01535H215.97625A16,16,0,0,0,229.82386,191.977L141.84757,39.98472A16,16,0,0,0,114.15243,39.98472Z"
+                  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+                </path>
+                <circle cx="128" cy="180" r="12" fill="currentColor"></circle>
+              </svg>
+            </div>
+            <div class="listItemBody">
+              Report this profile
+            </div>
+            <div class="listItemIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 6l6 6l-6 6"></path>
+              </svg>
+
+
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal" id="profileReportModal"></div>
+
+    <div class="modal" id="profileShareModal">
+      <button class="modalClose" data-dismiss="modal">
+        &times;
+      </button>
+
+      <div class="slides">
+        <div id="shareProfileMainMenu4018" class="slide active">
+
+          <div class="modalHeader textCenter">
+            <h3>Share this page</h3>
+          </div>
+          <div class="modalBody textCenter">
+
+            <div class="copyLink copyLinkBox bgWhite mb-3" data-copy="">
+              https://direct.me/KrispyMatt <a href="#" class="button buttonIcon"><svg xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-copy" width="24" height="24" viewbox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                  <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                </svg>
+
+
+              </a>
+              <input type="text" value="https://direct.me/KrispyMatt" readonly="">
+            </div>
+
+            <div class="list">
+
+              <a href="http://www.facebook.com/sharer/sharer.php?u=https://direct.me/KrispyMatt" class="listItem"
+                target="_blank" rel="noopener noreferrer">
+                <div class="listItemIcon">
+                  <div class="avatar" style="background:#1878F2">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Facebook
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                    <path d="M11 13l9 -9"></path>
+                    <path d="M15 4h5v5"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+
+              <a href="http://twitter.com/intent/tweet?text=https%3A%2F%2Fdirect.me%2FKrispyMatt" class="listItem"
+                target="_blank" rel="noopener noreferrer">
+                <div class="listItemIcon">
+                  <div class="avatar" style="background:#1C9CEA">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                          d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z">
+                        </path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Twitter
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                    <path d="M11 13l9 -9"></path>
+                    <path d="M15 4h5v5"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+
+              <a href="https://www.messenger.com/new" class="listItem" target="_blank" rel="noopener noreferrer">
+                <div class="listItemIcon">
+                  <div class="avatar" style="background:#0083FF">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-messenger"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1"></path>
+                        <path d="M8 13l3 -2l2 2l3 -2"></path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Messenger
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                    <path d="M11 13l9 -9"></path>
+                    <path d="M15 4h5v5"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+              <a href="https://api.whatsapp.com/send/?text=https%3A%2F%2Fdirect.me%2FKrispyMatt" class="listItem"
+                target="_blank" rel="noopener noreferrer">
+                <div class="listItemIcon">
+                  <div class="avatar" style="background:#0FBB19">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                        <path
+                          d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1">
+                        </path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Whatsapp
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+                    <path d="M11 13l9 -9"></path>
+                    <path d="M15 4h5v5"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+
+              <a href="#shareProfileTiktok4018" data-toggle="slide" class="listItem">
+                <div class="listItemIcon">
+                  <div class="avatar" style="background:#000">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                          d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z">
+                        </path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Tiktok
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+              <a href="#shareProfileInstagram4018" data-toggle="slide" class="listItem">
+                <div class="listItemIcon">
+                  <div class="avatar"
+                    style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);">
+                    <div class="avatarIcon">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                      </svg>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="listItemBody">
+                  Instagram
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+
+            </div>
+
+            <div class="list">
+              <a href="/register" class="listItem">
+                <div class="listItemIcon">
+                  <svg viewbox="0 0 911 910" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M426.9 1.1C300.4 8.7 181.3 70.2 101.5 168.9 23 266.3-12 390.1 4 514c26.5 204 188.1 365.4 392.5 392 112.3 14.6 227.1-13.5 319.5-78.3 80-56 139.6-135.7 170.6-227.9 24.5-73 30.1-154.3 15.8-229.3C880 253.4 813.7 150.8 716 82.3 632.2 23.5 530.3-5.2 426.9 1.1zM586 183.5c15.4 2.8 31.5 8.1 46.5 15.4 49.2 24.1 82.7 67.9 93.7 122.3 2 9.6 2.3 14.4 2.3 32.3s-.3 22.7-2.3 32.3c-15.3 75.5-75.4 130.8-151.4 139.1-5.4.6-12.6 1.1-16.1 1.1h-6.4l-2.2-10.8c-2.9-13.6-7.2-27-12.7-39.6l-4.3-9.8 3.2.6c1.8.3 8.4.9 14.7 1.2 32.8 1.9 63.5-10 87-33.6 14.1-14.2 24.5-32.2 29.7-51.7 2.5-9 2.7-11.4 2.7-28.8 0-17.5-.2-19.8-2.7-29-5.3-19.5-19-42.5-32.8-54.9-31.1-28-72.3-37.3-112.2-25.5-9.1 2.7-26.7 11.7-34.8 17.8-8.1 6.2-20.3 18.9-25.6 26.7-17.3 25.5-24 58.6-17.8 87.9l1.5 7-22.4 22.4-22.4 22.4-2.2-4.9c-4.4-9.9-10-28.4-12.1-40-3-16.6-3.1-43-.1-59.5 9.6-52.9 41.9-97.3 89.4-122.8 15.7-8.5 38.2-15.8 55.3-18 4.4-.6 9.4-1.3 11-1.5 6.3-.9 34.4.4 43.5 1.9zM570.9 328c9.9 6.3 15.4 15.4 15.4 25.5.1 12.2 5.8 5.9-110.6 122.1-73.9 73.9-107.4 106.7-110.2 107.9-5.8 2.7-15.5 3.2-21.3.9-5.6-2.1-14.6-10.3-17.4-15.9-1.2-2.2-2.3-6.8-2.6-10.2-1-12.6-8.5-4.2 109.7-122.7 84.6-84.8 107.6-107.3 111.6-109.3 4.3-2.1 6.1-2.4 12.6-2 6.6.3 8.4.8 12.8 3.7zm-210.8 65.5c2.6 13.3 6.4 25.6 11.9 38.5 2.7 6.3 4.8 11.6 4.6 11.7-.2.2-3.4-.1-7.2-.7-26.8-3.8-56.1 2.9-79.4 18.2-8.9 5.8-23.8 20.4-29.9 29.3-15.8 22.8-23.2 51.2-20.3 77.4 2.2 19.7 9.2 38.6 20.2 54.5 6 8.7 20.1 22.7 28.9 28.5 30.1 20.3 67.3 25.5 101.3 14.1 39.6-13.3 69.2-47.7 76.3-88.8 2-11.1 1.9-28.5-.1-40.2l-1.6-9.3 21.8-21.8c12.1-12.1 22.2-21.9 22.5-21.9 1.5 0 8.2 18.2 11.4 30.5 4.1 16 5.5 27.2 5.5 43.5-.1 46.3-18.2 89.4-51.4 122.3-24.5 24.3-57.2 41-92.1 47.3-12.2 2.2-42 2.5-54 .6C256.9 715.7 201.3 664 185.4 594c-6.8-30-5-63.6 5.1-93.5 4-12 14.7-32.8 22.3-43.5 8.3-11.7 28.9-32.5 40-40.4 22.6-16 49-26.7 75.2-30.5 12.1-1.8 13.1-1.8 21.9-1.7l8.4.1 1.8 9z"
+                      fill="#FF1053" fill-rule="nonzero"></path>
+                  </svg>
+                </div>
+                <div class="listItemBody">
+                  Create your page
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+              <a href="/login" class="listItem">
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-login" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path>
+                    <path d="M20 12h-13l3 -3m0 6l-3 -3"></path>
+                  </svg>
+
+
+                </div>
+                <div class="listItemBody">
+                  Login
+                </div>
+                <div class="listItemIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+                    height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                  </svg>
+
+
+                </div>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div id="shareProfileTiktok4018" class="slide">
+          <div class="modalTitle">
+            <div class="modalTitleInner">
+              <a href="#shareMainMenu4018" data-toggle="slide" class="modalHeaderBack">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24"
+                  height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M15 6l-6 6l6 6"></path>
+                </svg>
+
+
+              </a>
+              <div class="modalHeaderIcon" style="background:var(--black);color:var(--white)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="24"
+                  height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z">
+                  </path>
+                </svg>
+
+
+              </div>
+              <div>
+                <h3 class="modalHeaderTitle">Share on TikTok</h3>
+              </div>
+            </div>
+          </div>
+          <div class="modalBody">
+            <p><b>TikTok Post</b> - Create an upload a video about what you're offering, then post it to TikTok. Don't
+              forget to mention that the link is in your bio.</p>
+            <p><b>TikTok Live</b> - Go live on TikTok and tell your followers about what you're offering. Don't forget
+              to mention that the link is in your bio.</p>
+          </div>
+        </div>
+
+        <div id="shareProfileInstagram4018" class="slide">
+          <div class="modalTitle">
+            <div class="modalTitleInner">
+              <a href="#shareMainMenu4018" data-toggle="slide" class="modalHeaderBack">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24"
+                  height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M15 6l-6 6l6 6"></path>
+                </svg>
+
+
+              </a>
+              <div class="modalHeaderIcon"
+                style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);color:#fff">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24"
+                  height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                  <path d="M16.5 7.5l0 .01"></path>
+                </svg>
+
+
+              </div>
+              <div>
+                <h3 class="modalHeaderTitle">Share on Instagram</h3>
+              </div>
+            </div>
+          </div>
+          <div class="modalBody">
+            <p><b>Instagram Post</b> - Create an upload a video or image about what you're offering, then post it to
+              Instagram. Don't forget to mention that the link is in your bio in the description.</p>
+            <p><b>Instagram Live</b> - Go live on Instagram and tell your followers about what you're offering. Don't
+              forget to mention that the link is in your bio.</p>
+            <p><b>Instagram Stories</b> - Create a story on Instagram telling your followers about this item, use the
+              link below as the "Swipe up" to take users directly to this item.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script type="41882e5a277347ac75383d08-text/javascript">
+  window.onload = function() {
+    $(function() {
+      $(window).scroll(function() {
+        var scrollPos = $(document).scrollTop();
+        if (scrollPos > 10) {
+          $('.profileMenu').addClass('scrolled');
+        } else {
+          $('.profileMenu').removeClass('scrolled');
+        }
+      });
+          });
+  }
+</script>
+
+
+
+
+    <link href="css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <style>
+      :root {
+        --buttonColor: #ffffff;
+        --headlineColor: #ffffff;
+        --highlightColor: #000000;
+        --textColor: #000;
+        --iconColor: var(--white);
+        --iconBackgroundColor: var(--highlightColor);
+        --socialIconColor: #fff;
+        --socialIconBackgroundColor: #000000;
+
+        --font: 'Open Sans';
+        --fontSize: 1rem;
+        --backgroundAttachment: fixed;
+        --backgroundSize: auto;
+        --backgroundRepeat: repeat;
+        --backgroundPosition: center center;
+
+        --avatarShadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.1), 0 32px 64px rgba(0, 0, 0, 0.1);
+        --backgroundImage: none;
+        --backgroundColor: #000000;
+        --borderRadius: 0;
+        --avatarBorderRadius: 50%;
+      }
+
+      .profileMenu .buttonPrimary {
+        background-color: var(--iconBackgroundColor);
+        color: var(--iconColor);
+      }
+
+      #profile {
+        background-attachment: var(--backgroundAttachment);
+        background-size: var(--backgroundSize);
+        background-repeat: var(--backgroundRepeat);
+        background-position: var(--backgroundPosition);
+        color: var(--headlineColor);
+        background-image: var(--backgroundImage);
+        background-color: var(--backgroundColor);
+      }
+
+      #profile h1,
+      #profile h2,
+      #profile .profileElementContent h2,
+      #profile .profileElementContent h3,
+      #profile .profileElementContent p,
+      #profile .bio {
+        font-family: var(--font), serif;
+      }
+
+      #profile h1 {
+        font-size: calc(var(--fontSize) * 2);
+      }
+
+      #profile h2,
+      #profile .profileElement h2 {
+        font-size: var(--fontSize);
+      }
+
+      #profile,
+      #profile p,
+      #profile h3 {
+        font-size: calc(var(--fontSize) * 0.875);
+      }
+
+      #profile .profileHeader h1,
+      #profile .bio,
+      #profile .bio a,
+      #profile h1 a,
+      #profile .profileElementContent p>a {
+        color: var(--headlineColor) !important;
+      }
+
+
+
+      #profile .profileElementEmbed {
+        border-radius: var(--borderRadius) !important;
+      }
+
+      #profile .profileSocialIcon {
+        border-radius: var(--borderRadius);
+        background-color: var(--socialIconBackgroundColor) !important;
+        color: var(--socialIconColor) !important;
+      }
+
+      #profile .profileHeaderAvatar img {
+        border-radius: var(--avatarBorderRadius);
+        box-shadow: var(--avatarShadow);
+      }
+
+      #profile .profileHeaderAvatar {
+        border-radius: var(--avatarBorderRadius);
+      }
+
+      #profile .top8Avatar {
+        border-radius: var(--avatarBorderRadius);
+      }
+
+      #profile .profileElement {
+        background-color: var(--buttonColor);
+      }
+
+      #profile .button-style-draw-border {
+        box-shadow: inset 0 0 0 4px var(--buttonColor) !important;
+      }
+
+      #profile .button-style-retro,
+      #profile .button-draw-border,
+      #profile .button-style-bubble {
+        border-color: var(--buttonColor) !important;
+        background-color: transparent;
+      }
+
+      #profile .button-style-retro::before {
+        background-color: rgba(255, 255, 255, .4);
+      }
+
+      #profile .button-style-retro:hover::before {
+        background-color: rgba(255, 255, 255, .6);
+      }
+
+      #profile .button-style-fade-out::before {
+        background-color: var(--buttonColor) !important;
+      }
+
+      #profile .button-style-fade-out::after {
+        box-shadow: inset 0 0 0 1px var(--buttonColor) !important;
+      }
+
+      #profile .button-style-fade-out,
+      #profile .button-style-thin {
+        background-color: transparent !important;
+      }
+
+      #profile .button-style-thin::after {
+        background-color: var(--buttonColor) !important;
+      }
+
+      #profile .button-style-thin::before {
+        border-top-color: var(--buttonColor) !important;
+        border-bottom-color: var(--buttonColor) !important;
+      }
+
+      #profile .button-style-bubble,
+      #profile .button-style-draw-border {
+        background-color: rgba(255, 255, 255, .7);
+      }
+
+      #profile .button-style-bubble:hover,
+      #profile .button-style-draw-border:hover {
+        background-color: rgba(255, 255, 255, .6);
+      }
+
+      #profile .profileElement:not(.profileElementWithImage),
+      #profile .profileElement:not(.profileElementWithImage) p,
+      #profile .profileElement:not(.profileElementWithImage) h2,
+      #profile .profileElement:not(.profileElementWithImage) h3 {
+        color: var(--textColor) !important;
+      }
+
+      #profile .profileElementFolder:not(.active) {
+        box-shadow:
+          0 1px 1px rgba(0, 0, 0, 0.15),
+          0 8px 0 -3px rgba(255, 255, 255, .75),
+          0 8px 1px -2px rgba(0, 0, 0, 0.15),
+          0 16px 0 -6px rgba(255, 255, 255, .5),
+          0 16px 1px -5px rgba(0, 0, 0, 0.15);
+      }
+
+      #profile .blockquote p {
+        color: var(--textColor) !important;
+        font-size: 2rem;
+      }
+
+      #profile .profileElementUpdates p {
+        color: var(--textColor) !important;
+      }
+
+      #profile .reCAPTCHA a {
+        color: var(--textColor) !important;
+      }
+
+      .loadingAvatar::before,
+      .loadingAvatar::after {
+        border: var(--highlightColor) solid 8px !important;
+      }
+
+      #profile .button-style-draw-border:hover::before,
+      #profile .button-style-draw-border:hover::after {
+        border-color: var(--highlightColor) !important;
+      }
+
+      #profile .button-style-push-me {
+        box-shadow: -6px 6px 0 var(--highlightColor) !important;
+      }
+
+      #profile .button-style-push-me:hover {
+        box-shadow: -3px 3px 0 var(--highlightColor) !important;
+      }
+
+      #profile .button-style-push-me::after {
+        background-color: var(--highlightColor) !important;
+      }
+
+      #profile .button-style-push-me::before {
+        background-color: var(--highlightColor) !important;
+      }
+
+      #profile .buttonPrimary {
+        background: var(--iconBackgroundColor) !important;
+        color: var(--iconColor) !important;
+        border-radius: var(--borderRadius);
+      }
+
+      #profile .profileElementIcon,
+      #profile .profileElementSmallImage {
+        background-color: var(--iconBackgroundColor);
+        border-radius: var(--borderRadius);
+        color: var(--iconColor);
+      }
+
+      #profile .profileElementDateMonth {
+        background-color: var(--highlightColor) !important;
+      }
+
+      .profileFooterBlock p,
+      .profileHeaderBlock p,
+      .profileHeaderBlock h2,
+      .profileHeaderBlock h3 {
+        color: var(--headlineColor) !important;
+      }
+
+      #profile .poweredBy p {
+        color: var(--socialIconBackgroundColor) !important;
+      }
+
+      #profile .item-list>h2 {
+        color: var(--headlineColor) !important;
+      }
+    </style>
+
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <clippath id="curvedClipPath" clippathunits="objectBoundingBox">
+          <path d="M0,0 1,0 1,0.9 C 1,0.9, 0.77,1, 0.5,1 0.23,1, 0,0.9,0,0.9z"></path>
+        </clippath>
+      </defs>
+    </svg>
+
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <clippath id="freeFormClipPath" clippathunits="objectBoundingBox">
+          <path d="M0 0h1v.9S.85.812.711.837C.568.862.432 1 .296 1 .026 1 0 .9 0 .9V0Z"></path>
+        </clippath>
+      </defs>
+    </svg>
+
+    <style class="plyr-css">
+      .plyr {
+        margin: 0 !important;
+      }
+
+      .plyr--video {
+        display: block !important;
+        border-radius: var(--borderRadius) !important;
+      }
+
+      .plyr__control--overlaid {
+        background: #000000 !important;
+      }
+    </style>
+
+    <style class="embedly-css">
+      :root {
+        --highlightColor: #000000;
+        --textColor: #000;
+        --font: 'Open Sans';
+      }
+
+      @import url('css2');
+
+      .profileElementEmbed {
+        overflow: hidden;
+        z-index: 1;
+      }
+
+      .embedly-card-hug {
+        margin: 0 auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .embedly-card {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      body#cards {
+        padding: 0 !important;
+      }
+
+      body#cards .card {
+        padding: 0;
+        font-family: var(--font), serif !important;
+      }
+
+      body#cards .card .txt-bd {
+        padding: 1rem;
+      }
+
+      body#cards .card {
+        color: var(--textColor);
+      }
+
+      body#cards .card .description {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 8px;
+      }
+
+      body#cards .card .action {
+        color: var(--highlightColor);
+        font-size: 15px;
+        line-height: 1.5;
+      }
+
+      body#cards .card .title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      body#cards .card .title a {
+        color: var(--textColor);
+        font-weight: 600;
+      }
+
+      .hdr {
+        display: none;
+      }
+
+      .twitter-tweet {
+        max-width: 100%;
+      }
+    </style>
+
+
+
+
+
+
+    <div id="forgot" class="modal"></div>
+
+
+
+  </div>
+
+  <div class="overlay" data-dismiss="modal"></div>
+  <div id="alerts">
+  </div>
+
+  <script src="ajax/libs/jquery/3.4.1/jquery.min.js" type="41882e5a277347ac75383d08-text/javascript"></script>
+
+
+  <link rel="stylesheet" href="static/css/animate2.css?v=2021-1-31">
+
+
+  <script src="static/js/faviconSet.js?v=1705007970" type="41882e5a277347ac75383d08-text/javascript"></script>
+  <script src="ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"
+    integrity="sha512-7G7ueVi8m7Ldo2APeWMCoGjs4EjXDhJ20DrPglDQqy8fnxsFQZeJNtuQlTT0xoBQJzWRFp4+ikyMdzDOcW36kQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" type="41882e5a277347ac75383d08-text/javascript"></script>
+  <script src="static/js/lazyload/lazyload.min.js" type="41882e5a277347ac75383d08-text/javascript"></script>
+  <script async="" src="static/js/site.js?v=1705007970" type="41882e5a277347ac75383d08-text/javascript"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="gtag/js?id=UA-132400210-1" type="41882e5a277347ac75383d08-text/javascript"></script>
+  <script type="41882e5a277347ac75383d08-text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-132400210-1');
+  </script>
+
+
+
+  <!-- Default Statcounter code for Direct.me https://direct.me -->
+  <script type="41882e5a277347ac75383d08-text/javascript">
+    var sc_project = 12161422;
+    var sc_invisible = 1;
+    var sc_security = "4a257bc2";
+    var sc_https = 1;
+  </script>
+  <script type="41882e5a277347ac75383d08-text/javascript" src="counter/counter.js" async=""></script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+StatCounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
+          src="12161422/0/4a257bc2/1/index.htm" alt="Web Analytics Made Easy - StatCounter"></a></div>
+  </noscript>
+
+  <script
+    type="41882e5a277347ac75383d08-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-aa4c79310949334ef1d","applicationID":"447126811","transactionName":"ZFZbbEFZWxBWVBdYCl0cbEpaF0URWFEKXQAdQ1FI","queueTime":0,"applicationTime":4,"atts":"SBFYGglDSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+  <foreignobject>
+    <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="41882e5a277347ac75383d08-|49" defer=""></script>
+  </foreignobject>
+  <script>(function () { var js = "window['__CF$cv$params']={r:'8440a83f5e160bd2',t:'MTcwNTAxMjc4Mi4wODkwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);"; var _0xh = document.createElement('iframe'); _0xh.height = 1; _0xh.width = 1; _0xh.style.position = 'absolute'; _0xh.style.top = 0; _0xh.style.left = 0; _0xh.style.border = 'none'; _0xh.style.visibility = 'hidden'; document.body.appendChild(_0xh); function handler() { var _0xi = _0xh.contentDocument || _0xh.contentWindow.document; if (_0xi) { var _0xj = _0xi.createElement('script'); _0xj.innerHTML = js; _0xi.getElementsByTagName('head')[0].appendChild(_0xj); } } if (document.readyState !== 'loading') { handler(); } else if (window.addEventListener) { document.addEventListener('DOMContentLoaded', handler); } else { var prev = document.onreadystatechange || function () { }; document.onreadystatechange = function (e) { prev(e); if (document.readyState !== 'loading') { document.onreadystatechange = prev; handler(); } }; } })();</script>
+  <script defer="" src="beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+    integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+    data-cf-beacon='{"rayId":"8440a83f5e160bd2","version":"2023.10.0","token":"3f6a0b96378c46a985b2428a6832a3dd"}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- Loaded: 4:KrispyMatt - January 11 2024 21:19:30 - January 11 2024 22:39:42 -->
